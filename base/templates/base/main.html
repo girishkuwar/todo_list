@@ -8,7 +8,7 @@
     <title>TO DO list</title>
     <style>
         body {
-            background-color: #5e3f3f;
+            background: url(https://mcdn.wallpapersafari.com/medium/22/12/RjWP3C.jpg);
             font-family: 'Nunito', sans-serif;
             width: 40%;
             min-width: 634px;
@@ -16,18 +16,39 @@
             transform: translate(-50%, -50%);
             left: 50%;
             top: 50%;
+            background-size: cover;
+            background-repeat: round;
         }
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-
+        table {
+            margin-top: 45px;
+            width: 100%;
+        }
+        table th {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.06);
+        }
+        table td {
+            text-align: center;
+            padding: 10px 2px;
+        }
         input {
             border: none;
             padding: 12px ;
             background: rgba(255, 255, 255, 0.344);
             border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        textarea {
+            border: none;
+            padding: 12px ;
+            background: rgba(255, 255, 255, 0.344);
+            border-radius: 10px;   
+            backdrop-filter: blur(10px); 
         }
 
         h1,
